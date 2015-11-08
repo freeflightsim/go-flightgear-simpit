@@ -1,0 +1,17 @@
+
+model: 787
+
+nodes:
+
+  - alias: ap_engaged
+    comment: Autopilot Engaged
+    prop: /instrumentation/flightdirector/autopilot-on
+    write: #read
+
+  - alias: heading
+    comment: Current Heading
+    prop: /autopilot/locks/heading
+
+  - alias: speed
+    comment: Current Speed
+    prop: /autopilot/locks/speed
