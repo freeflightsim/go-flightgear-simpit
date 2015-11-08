@@ -44,7 +44,7 @@ func main() {
 	//bus.AddProp(eng_node)
 
 	//= Initialise the flightgear client(s) later udp
-	fg_client := fgio.NewFgClient("192.168.50.153", "7777")
+	fg_client := fgio.NewFgClient("192.168.50.152", "7777")
 	//fg_client.AddProps( bus.GetProps() )
 
 
